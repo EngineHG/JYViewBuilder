@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JYViewBuilder_Example' do
+  pod 'JYViewBuilder', :path => '../'
+
+  target 'JYViewBuilder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
