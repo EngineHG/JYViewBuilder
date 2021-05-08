@@ -1,0 +1,6 @@
+framework module JYViewBuilder {
+  umbrella header "JYViewBuilder-umbrella.h"
+
+  export *
+  module * { export * }
+}

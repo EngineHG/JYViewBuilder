@@ -1,0 +1,6 @@
+framework module Pods_JYViewBuilder_Tests {
+  umbrella header "Pods-JYViewBuilder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

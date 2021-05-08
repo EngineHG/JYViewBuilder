@@ -1,0 +1,16 @@
+PODS:
+  - JYViewBuilder (0.1.0)
+
+DEPENDENCIES:
+  - JYViewBuilder (from `../`)
+
+EXTERNAL SOURCES:
+  JYViewBuilder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYViewBuilder: 605c4e8e4954e4a310079db4b3e2c099a8735396
+
+PODFILE CHECKSUM: 2770c074ed4af57abe4d43ea152fe0f5f7790840
+
+COCOAPODS: 1.10.1
