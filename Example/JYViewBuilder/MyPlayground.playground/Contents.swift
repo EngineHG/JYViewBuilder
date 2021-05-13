@@ -17,6 +17,14 @@ class MyViewController : UIViewController {
                 label("hello")
                 label("word!")
             }
+            if false {
+                label("hello true")
+                label("true word!")
+            } else {
+                label("hello false")
+                label("false word!")
+                label("false")
+            }
         }
         .distribution(.fillEqually)
     }
