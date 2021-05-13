@@ -26,6 +26,13 @@ public typealias ViewContentBlock = () -> [UIView]
         component.contents
     }
     
+    public static func buildEither(first component: ViewContentType) -> ViewContentType {
+        return component
+    }
+    
+    public static func buildEither(second component: ViewContentType) -> ViewContentType {
+        return component
+    }
 }
 
 public protocol ViewContentType {
